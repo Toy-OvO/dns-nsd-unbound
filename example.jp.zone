@@ -1,0 +1,11 @@
+$ORIGIN example.jp.
+$TTL 3600
+@ IN SOA ns.example.jp. postmaster.example.jp. (
+        1   ; serial
+        1h  ; refresh
+        15m ; retry
+        1w  ; expire
+        1h  ; negative cache TTL
+       )
+@  IN NS ns.example.jp.
+ns IN A  127.0.0.1
